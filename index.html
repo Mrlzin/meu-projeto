@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuncie seu Imóvel</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preencha o formulário abaixo para anunciar seu imóvel </h1>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">* Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="telefone">* Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do Imóvel</legend>
+
+                <label for="finalidade">* Finalidade:</label>
+                <select id="finalidade" name="finalidade" required>
+                    <option value="">Selecione a finalidade</option>
+                    <option value="venda">Venda</option>
+                    <option value="aluguel">Aluguel</option>
+                </select>
+
+                <label for="tipo">Qual o tipo do seu imóvel?</label>
+                <input type="text" id="tipo" name="tipo" placeholder="Casa, Apartamento, Lote...">
+
+                <label for="valor">Valor:</label>
+                <input type="text" id="text" name="text" placeholder="Digite o valor">
+
+                <label for="condominio">Valor do Condomínio:</label>
+                <input type="text" id="condominio" name="condominio" placeholder="Digite o valor">
+
+                <label for="iptu">Valor do IPTU:</label>
+                <input type="text" id="iptu" name="iptu" placeholder="Valor IPTU">
+
+                <label for="area_interna">Área interna:</label>
+                <input type="text" id="area_interna" name="area_interna" placeholder="Área interna">
+
+                <label for="area_externa">Área externa:</label>
+                <input type="text" id="area_externa" name="area_externa" placeholder="Área externa">
+
+                <label for="area_lote">Área do Lote:</label>
+                <input type="text" id="area_lote" name="area_lote" placeholder="Área Lote">
+
+                <label for="andar">Andar:</label>
+                <input type="text" id="andar" name="andar" placeholder="Andar">
+
+                <label for="quartos">Quantidade de Quartos:</label>
+                <input type="number" id="quartos" name="quartos" placeholder="Número Quartos">
+
+                <label for="suites">Quantidade de Suítes:</label>
+                <input type="number" id="suites" name="suites" placeholder="Número Suíte">
+
+                <label for="banheiros">Quantidade de Banheiros:</label>
+                <input type="number" id="banheiros" name="banheiros" placeholder="Número Banheiros">
+
+                <label for="vagas">Quantidade de Vagas:</label>
+                <input type="number" id="vagas" name="vagas" placeholder="Número Vagas">
+
+                <label for="permuta">Aceita Permuta?</label>
+                <input type="checkbox" id="permuta" name="permuta">
+
+                <label for="financiamento">Aceita Financiamento?</label>
+                <input type="checkbox" id="financiamento" name="financiamento">
+
+                <label for="ocupado">Ocupado?</label>
+                <input type="checkbox" id="ocupado" name="ocupado">
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" placeholder="CEP">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua/Av">
+
+                <label for="numero">Número:</label>
+                <input type="text" id="numero" name="numero" placeholder="N°">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Cidade">
+
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento" placeholder="Complemento">
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" placeholder="Bairro">
+            </fieldset>
+
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
